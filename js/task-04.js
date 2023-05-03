@@ -15,6 +15,5 @@ decrement.addEventListener("click", () => {
   if (counterValue < 0) {
     counterValue = 0;
   }
-
   value.innerText = counterValue;
 });
